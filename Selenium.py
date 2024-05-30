@@ -7,7 +7,7 @@ import time
 
 def chat_with_gpt(command):
     # Firefox profile
-    profile_path = 'C:/Users/Faisal El-Muhammady/AppData/Roaming/Mozilla/Firefox/Profiles/gmmsn0a8.faisal_automation'  # Firefox profile path
+    profile_path = 'C:/Users/profile/AppData/Roaming/Mozilla/Firefox/Profiles/gmmsn0a8.profile'  # Firefox profile path
     options = webdriver.FirefoxOptions()
     options.profile = webdriver.FirefoxProfile(profile_path)
 
